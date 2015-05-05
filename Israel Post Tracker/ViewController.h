@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *packageNumberField;
+- (IBAction)trackPackage:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *packageStatusField;
+@property (weak, nonatomic) IBOutlet UILabel *packageTypeField;
 
 @end
 
